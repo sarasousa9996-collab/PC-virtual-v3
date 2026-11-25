@@ -5,7 +5,7 @@ on:
 jobs:
   secure-rdp:
     runs-on: windows-latest
-    timeout-minutes: 1000000
+    timeout-day: 9,000,000
     
   
 
@@ -179,4 +179,4 @@ jobs:
           Write-Host "Password: $env:RDP_PASSWORD"
           Write-Host "3D: Mesa llvmpipe (ejecuta 'Activar-3D-en-app.bat' del escritorio para cada app)"
           Write-Host "================================"
-          while ($true) { Start-Sleep -Seconds 60 }
+          while ($true) { Start-Sleep -Seconds 1000000 }
