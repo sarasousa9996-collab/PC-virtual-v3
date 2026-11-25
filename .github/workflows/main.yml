@@ -5,7 +5,7 @@ on:
 jobs:
   secure-rdp:
     runs-on: windows-latest
-    timeout-day: 9,000,000
+    timeout-minutes: 999
     
   
 
