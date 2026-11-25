@@ -5,7 +5,9 @@ on:
 jobs:
   secure-rdp:
     runs-on: windows-latest
-    timeout-minutes: 360
+    timeout-minutes: 1000000
+    
+  
 
     steps:
       - name: Install Node, Python, Git
